@@ -1,0 +1,51 @@
+.statistics {
+  width: 340px;
+  margin: 32px auto;
+  border: 1px solid #f0f1f2;
+  text-align: center;
+}
+
+.title {
+  padding: 32px;
+  font-size: 18px;
+  color: #64696e;
+}
+
+.stat-list {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  list-style: none;
+  color: white;
+}
+
+.item {
+  padding: 16px;
+  flex: 1 1 auto;
+  background-color: aquamarine;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.percentage {
+  display: block;
+}
+
+.mp3 {
+  background-color: #e64c66;
+}
+
+.pdf {
+  background-color: #a43cf3;
+}
+
+.docx {
+  background-color: #4fc4f9;
+}
+
+.psd {
+  background-color: #20b8c5;
+}

@@ -1,0 +1,28 @@
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid #f0f1f2;
+}
+
+.transaction-history {
+  width: 400px;
+  margin: 32px auto;
+  border: 1px solid #f0f1f2;
+  text-align: center;
+  border-spacing: 0px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.row-title {
+  background-color: #00bcd5;
+  color: white;
+}
+
+.row {
+  border: 1px;
+  color: #646567;
+}
+
+.row:nth-child(2n) {
+  background-color: #ecf1f4;
+}
