@@ -1,16 +1,21 @@
 th:not(:last-child),
 td:not(:last-child) {
-  border-right: 1px solid #f0f1f2;
+  border-right: 1px solid rgba(41, 41, 41, 0.5);
+}
+
+td {
+  border-top: 1px solid rgba(41, 41, 41, 0.5);
 }
 
 .transaction-history {
   width: 400px;
   margin: 32px auto;
-  border: 1px solid #f0f1f2;
+  border: 1px solid rgba(41, 41, 41, 1);
   text-align: center;
   border-spacing: 0px;
   font-size: 14px;
   line-height: 40px;
+  box-shadow: 1px 1px 3px 2px rgba(41, 41, 41, 1);
 }
 
 .row-title {
@@ -19,7 +24,7 @@ td:not(:last-child) {
 }
 
 .row {
-  border: 1px;
+  border: 1px solid rgba(41, 41, 41, 1);
   color: #646567;
 }
 
