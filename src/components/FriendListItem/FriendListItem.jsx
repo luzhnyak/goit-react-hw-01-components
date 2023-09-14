@@ -8,9 +8,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
         className={
           isOnline ? `${css.status} ${css['is-online']}` : `${css.status}`
         }
-      >
-        {' '}
-      </span>
+      ></span>
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
       <p className={css.name}>{name}</p>
     </li>
@@ -18,7 +16,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
 };
 
 FriendListItem.propTypes = {
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  isOnline: PropTypes.bool,
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
 };
